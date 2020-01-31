@@ -1,9 +1,7 @@
 from random import randint
 from time import sleep
-c = c2 = 0
 gemas = int(input('Quantidade de gemas: '))
 while True:
-    c += 1
     if gemas>=20:
         sort1= randint(20,28)-20
         gemas += sort1
